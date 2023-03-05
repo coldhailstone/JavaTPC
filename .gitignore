@@ -29,5 +29,5 @@ bin/
 .DS_Store
 
 ### Java ###
-.idea
+.idea/
 *.iml
