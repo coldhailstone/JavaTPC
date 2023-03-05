@@ -20,5 +20,7 @@ public class TPC02 {
         boolean g;
         g = true; // false(거짓), true(참)
         System.out.println(g);
+
+//        Book bk;
     }
 }
