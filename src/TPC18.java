@@ -1,5 +1,5 @@
 //import java.lang.*;
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 import kr.tpc.BookVO;
 import kr.tpc.MyUtil;
 
@@ -19,9 +19,9 @@ public class TPC18 {
 
         // 3. 다른 회사에서 만들어 놓은 class들
         // Gson -> json : https://mvnrepository.com/
-        Gson g = new Gson();
-        BookVO vo = new BookVO("자바", 13000, "영진", 800);
-        String json = g.toJson(vo);
-        System.out.println(json);
+//        Gson g = new Gson();
+//        BookVO vo = new BookVO("자바", 13000, "영진", 800);
+//        String json = g.toJson(vo);
+//        System.out.println(json);
     }
 }
