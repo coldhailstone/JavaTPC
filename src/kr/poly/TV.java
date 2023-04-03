@@ -2,14 +2,26 @@ package kr.poly;
 
 public class TV implements RemoCon {
 
+    int currCH = 70;
+
     @Override
     public void chUp() {
-        System.out.println("TV의 채널이 올라간다.");
+        if (currCH < MAXCH) {
+            currCH++;
+        } else {
+            currCH = 1;
+        }
+        System.out.println("TV의 채널이 올라간다.: " + currCH);
     }
 
     @Override
     public void chDown() {
-        System.out.println("TV의 채널이 내려간다.");
+        if (currCH > MINCH) {
+            currCH--;
+        } else {
+            currCH = 100;
+        }
+        System.out.println("TV의 채널이 내려간다.: " + currCH);
     }
 
     @Override
