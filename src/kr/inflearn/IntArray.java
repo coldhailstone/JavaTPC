@@ -5,6 +5,10 @@ public class IntArray {
     private int count;
     private int[] arr;
 
+    public IntArray() {
+        this(10);
+    }
+
     public IntArray(int init) {
         arr = new int[init];
     }
