@@ -51,4 +51,14 @@ public class BookDTO {
     public void setPage(int page) {
         this.page = page;
     }
+
+    @Override
+    public String toString() {
+        return "BookDTO{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", company='" + company + '\'' +
+                ", page=" + page +
+                '}';
+    }
 }
